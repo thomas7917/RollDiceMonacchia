@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <!-- EditText per l'inserimento del numero -->
+    <EditText
+        android:id="@+id/guessEditText"
+        android:layout_width="377dp"
+        android:layout_height="135dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Inserisci un numero (1-6)"
+        android:inputType="number" />
+
+    <!-- Bottone per avviare il lancio del dado (e passare alla schermata risultato) -->
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gioca"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- ImageView per visualizzare l'immagine del dado -->
+    <ImageView
+        android:id="@+id/diceImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/dice_face_1"
+        android:contentDescription="Immagine del dado"
+        android:layout_marginBottom="16dp" />
+
+    <!-- TextView per visualizzare il risultato -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Risultato"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Bottone per tornare alla schermata principale -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gioca ancora" />
+
+</LinearLayout>
