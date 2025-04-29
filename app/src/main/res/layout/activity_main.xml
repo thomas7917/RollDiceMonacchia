@@ -8,6 +8,9 @@
     android:gravity="center_horizontal">
 
     <!-- EditText per l'inserimento del numero -->
+
+    <!-- Bottone per avviare il lancio del dado (e passare alla schermata risultato) -->
+
     <EditText
         android:id="@+id/guessEditText"
         android:layout_width="377dp"
@@ -16,12 +19,11 @@
         android:hint="Inserisci un numero (1-6)"
         android:inputType="number" />
 
-    <!-- Bottone per avviare il lancio del dado (e passare alla schermata risultato) -->
     <Button
         android:id="@+id/playButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Gioca"
-        android:layout_marginBottom="16dp" />
+        android:layout_marginBottom="16dp"
+        android:text="Gioca" />
 
 </LinearLayout>
